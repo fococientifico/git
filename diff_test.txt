@@ -1,1 +1,1 @@
-teste de comparação de git
+este é um exemplo de comparação
