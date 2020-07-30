@@ -1,0 +1,213 @@
+[1mdiff --git a/Notas do novo curso de Git.docx b/Notas do novo curso de Git.docx[m
+[1mdeleted file mode 100644[m
+[1mindex da7fff9..0000000[m
+[1m--- a/Notas do novo curso de Git.docx[m	
+[1m+++ /dev/null[m
+[36m@@ -1,203 +0,0 @@[m
+[31m-                                    AULA 3[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-O projeto ficará dentro da pasta .git[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Manda todos os arquivos para o container.[m
+[31m-[m
+[31m-Fazer o commit[m
+[31m-   	[m
+[31m-   [m
+[31m-   Subpastas criadas depois do commit[m
+[31m-	[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-git log  mostra os commits feitos em ordem do mais recente para o mais antigo[m
+[31m-[m
+[31m-[m
+[31m-Forma mais simples de visualizar os commits[m
+[31m-                                    AULA 4[m
+[31m-[m
+[31m-[m
+[31m- Rastreando e recuperando versões anteriores do projeto (checkout)[m
+[31m-[m
+[31m-      HEAD  -  é o ponto onde o projeto se encontra no grafo de commits[m
+[31m-                                  2º commit[m
+[31m-                                  1º commit[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Desenho do grafo de commits[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Neste caso, vemos apenas os nodos.[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-Ao usar o "a" antes do m, foi feita a adição do arquivo no container e ao mesmo tempo o commit.[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/~$tas do novo curso de Git.docx b/~$tas do novo curso de Git.docx[m
+[1mdeleted file mode 100644[m
+[1mindex 6f9ab99..0000000[m
+Failed to extract required information from <C:\Users\Public\Documents\Wondershare\CreatorTemp/Rx0WIl_~$tas do novo curso de Git.docx>!
