@@ -1,2 +1,1 @@
-este é um exemplo de comparação
-vamos remover esta
+este é um exemplo de teste de comparação de git n2
